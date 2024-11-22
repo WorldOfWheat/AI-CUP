@@ -1,0 +1,4 @@
+pandas==1.5.3
+numpy==1.25.0
+pycaret==3.3.2
+tensorflow==2.16.1
