@@ -8,4 +8,4 @@
 ![](https://i.imgur.com/WcLue4o.png)
 ![](https://i.imgur.com/XQEuCQV.png)
 
-4. 跑預測，跑完就可以得到預測結果
+3. 跑預測，跑完就可以得到預測結果
