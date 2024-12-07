@@ -86,20 +86,19 @@ def sincosf1(f1):
 st, str_st = gettime()
 print('開始時間：' + str_st)
 
-
-input_dir = ''
-output_dir = ''
 '''
-input_dir = '/kaggle/input/solarenergy-20241124/'
+input_dir = 
+output_dir = 
+'''
+input_dir = '/kaggle/input/'
 output_dir = '/kaggle/working/'
-'''
 
 # 載入模型
 #model_name = '20241127-100152_f0011_e0001_b0256_L0064_L0064'
-regressor = load_model(output_dir + 'Z_WheatherLSTM_' + model_name + '.h5')
+regressor = load_model('/kaggle/input/test2/tensorflow2/default/1/Z_WheatherLSTM_20241205-151522_f0011_e0050_b0256_L0512_L0512.h5')
 
 # 載入測試資料
-DataName = input_dir + '36_TestSet_SubmissionTemplate/upload(no answer).csv'
+DataName = '/kaggle/input/testdata2/upload(no answer).csv'
 SourceData = pd.read_csv(DataName, encoding='utf-8')
 EXquestion = SourceData['序號'].values
 
