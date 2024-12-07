@@ -32,12 +32,12 @@ def normalize(train):
 st, str_st = gettime()
 print('開始時間：' + str_st)
 
-input_dir = ''
-output_dir = ''
-'''
-input_dir = '/kaggle/input/solarenergy-20241124/'
+# input_dir = ''
+# output_dir = ''
+
+input_dir = '/kaggle/input/'
 output_dir = '/kaggle/working/'
-'''
+
 
 df = pd.read_csv(output_dir + 'data01.csv', header=0)
 
